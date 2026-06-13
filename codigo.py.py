@@ -175,3 +175,5 @@ for entrada in entradas_prueba:
 print("\n" + "=" * 52)
 print("  Las imágenes quedan en caché local para uso offline.")
 print("=" * 52)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
